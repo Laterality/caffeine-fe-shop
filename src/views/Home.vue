@@ -21,9 +21,9 @@
             <OrderList :orders="finishedOrders" class="mx-3"/>
         </v-tab-item>
     </v-tabs>
-        <v-snackbar
-            class="mx-3 mb-2"
-            v-model="showSnackbar">
+    <v-snackbar
+        class="mx-3 mb-2"
+        v-model="showSnackbar">
         {{ snackbarText }}
         <v-btn
           color="pink"
